@@ -1,10 +1,14 @@
-import { AlertBox } from "@test/ui";
+"use client";
+import { Button } from "@test/ui";
 import Link from "next/link";
 
 export default function HomePage() {
   return (
     <div className="mt-2 z-0">
-      <AlertBox title="Default Page" desc="Page" style="warning"></AlertBox>
+      <Button>Is working</Button>
+      {/* This requires "use client" and when importing it, it breaks the external ui library*/}
+      {/* To reproduce it: comment the following line and remove 'use client'. You should see a red button */}
+      <Button onClick={() => console.log("test")}>Is working</Button>
       <Link href="test">Click here to subpage</Link>
     </div>
   );
