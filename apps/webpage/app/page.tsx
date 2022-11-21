@@ -9,7 +9,6 @@ export default function HomePage() {
       {/* This requires "use client" and when importing it, it breaks the external ui library*/}
       {/* To reproduce it: comment the following line and remove 'use client'. You should see a red button */}
       <Button onClick={() => console.log("test")}>Is working</Button>
-      <Link href="test">Click here to subpage</Link>
     </div>
   );
 }
