@@ -1,0 +1,14 @@
+.pnpm-debug.log
+pnpm-lock.yaml
+
+Cargo.lock
+.idea
+target
+/node_modules/
+.vscode
+.fleet
+
+app/.env.development
+/app/.env.prod
+/libs/ui/node_modules/
+/libs/config/node_modules/

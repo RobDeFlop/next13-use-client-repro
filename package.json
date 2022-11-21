@@ -1,0 +1,12 @@
+{
+  "name": "next13-use-client-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpage": "pnpm --filter @test/webpage -- "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

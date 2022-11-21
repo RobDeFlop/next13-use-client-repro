@@ -1,0 +1,1 @@
+module.exports = require('@test/ui/tailwind')('webpage', {webpage: true});

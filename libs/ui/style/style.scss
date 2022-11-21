@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.custom-scroll {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+.logo-font {
+  font-family: 'Russo One', sans-serif;
+}
+
+.page-scroll {
+  &::-webkit-scrollbar {
+    height: 6px;
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    @apply bg-gray-550 rounded-[6px]  ;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @apply rounded-[6px] bg-cyan-800 ;
+  }
+}
